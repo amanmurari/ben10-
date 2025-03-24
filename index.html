@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Ben 10 Selector</title>
+	<link rel="stylesheet" href="css/stylesIndex.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body class="main">
+
+	<h1 class="titleMain">Omnitrix Aliens Database</h1>
+    
+
+    <div class="audio-player">
+        <audio id="Audio" src="soundResources/Ben 10 Theme Song Hindi  HD.mp3"></audio>
+        <button id="play-btn"><i class="fa-solid fa-play"></i></button>
+        <button id="play-btn">1:20</button>
+        <button id="stop-btn"><i class="fa-solid fa-stop"></i></button>
+      </div>
+
+
+
+	<div class="catalogo">
+		<div class="catalogo-inner">
+
+			<div class="catalogo-item active" class="active" >
+                <img class="logoSmall" src="imgResources/logoClassic.png" alt="Imagen 1">
+            </div>
+            <div class="catalogo-item" >
+                <img class="logoBig" src="imgResources/logoForce.png" alt="Imagen 2">
+            </div>
+            <div class="catalogo-item">
+                <img class="logoBig" src="imgResources/logoUltimate.png" alt="Imagen 3">
+            </div>
+            
+		</div>
+
+		<button class="catalogo-control prevButton" onclick="prevSlide()"><i class="fa-solid fa-arrow-left"></i></button>
+        <button class="catalogo-control nextButton" onclick="nextSlide()"><i class="fa-solid fa-arrow-right"></i></button>
+	</div>
+
+    <button class="openSelector" onclick="openSelector()">START</button>
+
+	
+	
+
+    <footer>
+        <h4 class="credits">Created by Subhranshu Choudhury</h4>
+        <a class="aFooter" href="https://github.com/subhranshuchoudhury" target="_blank"><i class="fa-brands fa-github"></i></a>
+    </footer>
+    
+	<script src="script.js"></script>
+</body>
+
+</html>
